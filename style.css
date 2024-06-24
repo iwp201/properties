@@ -1,0 +1,82 @@
+.tr{
+    width: 100%;
+    background-color: red;
+    justify-content: center;
+    margin: 25px;
+    text-align: center;
+}
+.body{
+    width: 93%;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    display: block;
+    margin: 25px;
+}
+.imges{
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-items: center;
+    display: flex;
+    margin: 25px;
+}
+img{
+    width: 200px;
+}
+.propertyDetails{
+    display: none;
+}
+table{
+    width: 100%;
+    background-color: cornflowerblue;
+    margin: 15px;
+}
+.con{
+    margin: 30px;
+    background-color: darksalmon;
+    width: 100px;
+    height: 25px;
+    justify-content: center;
+}
+.in{
+    display: none;
+    align-items: center;
+    margin-top: 75px;
+}
+.hd{
+    margin: 50px;
+    justify-content: center;
+    width: 100%;
+}
+.li{
+    list-style: none;
+}
+body{
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+}
+.li1{
+    text-align: left;
+    background-color: lightblue;
+    margin: 25px;
+}
+.point{
+    list-style: none;
+    margin: 10px;
+}
+body{
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    text-align: left;
+}
+.point1{
+    list-style: none;
+    text-align: center;
+    justify-content: center;
+    margin: 10px;
+}
+.araby{
+    text-align: center;
+    background-color: lightblue;
+    margin: 25px;
+}

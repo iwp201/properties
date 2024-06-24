@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>house seller</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="jquery-3.7.1.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('.details').click(function(){
+                $('#detailswin').slideToggle()
+            })
+            $('.details1').click(function(){
+                $('#detailswin1').slideToggle()
+            })
+            $('.details2').click(function(){
+                $('#detailswin2').slideToggle()
+            })
+            $('.details3').click(function(){
+                $('#detailswin3').slideToggle()
+            })
+            $('.detail4').click(function(){
+                $('#detailswin4').slideToggle()
+            })
+            $('.details5').click(function(){
+                $('#detailswin5').slideToggle()
+            })
+            $('.details6').click(function(){
+                $('#detailswin6').slideToggle()
+            })
+            $('.details7').click(function(){
+                $('#detailswin7').slideToggle()
+            })
+            $('.details8').click(function(){
+                $('#detailswin8').slideToggle()
+            })
+            $('.details9').click(function(){
+                $('#detailswin9').slideToggle()
+            })
+            $('.details10').click(function(){
+                $('#detailswin10').slideToggle()
+            })
+            $('.details11').click(function(){
+                $('#detailswin11').slideToggle()
+            })
+            $('#continue').click(function(){
+                $('#info').slideToggle()
+            })
+        })
+        
+    </script>
+</head>
+<body class="body">
+    <header class="hd">
+        <nav>
+           <ul>
+               <img src="./imges/photo_6032737980977888844_x.jpg" alt="The company logo" style="width: 350px;">
+               <li class="li"><a href="home.html">Home</a></li>
+               <li class="li"><a href="AboutUs.html">AboutUs</a></li>
+           </ul>
+       </nav>
+   </header>
+    <table border="1">
+        <tr class="tr">
+            <th> المنطقة</th>
+            <th> التفاصيل</th>
+            <th> السعر</th>
+            <th> اظهار التفاصيل</th>
+            <th> اختيار</th>
+        </tr>
+        <tr>
+            <td> ريف دمشق</td>
+            <td>مزرعة بمساحة 6.5 دونم</td>
+            <td> 15000000 ل.س</td>
+            <td> <button class="details" data-target="detailswin"> اظهار التفاصيل</button></td>
+            <td> <input type="radio"></td>
+        </tr>
+        <tr class="ROW1">
+            <td colspan="5">
+                <div class="propertyDetails" id="detailswin">
+                    <h2> تفاصيل المزرعة</h2>
+                    <h1> المنطقة : الزبداني - متوفر بئر مياه -  5دونم + 1.5 دونم عمار</h1>
+                    <h1> الملكية : طابو - مساحة المسبح 100 متر - فرش سوبر ديلوكس</h1>
+                    <h2 class="imges">
+                        <img src="./imges/thumb-320x240-7810f59a4d4012ddf5661544f03327bb.webp">
+                        <img src="./imges/الأوراق-المطلوبة-للحصول-على-أرض-زراعية-من-الدولة.jpg">
+                        <img src="./imges/شروط-التقديم-للحصول-على-أرض-زراعية-من-وزارة-الزراعة.jpg">
+                    </h2>
+
+                </div>
+            </td>
+
+        </tr>
+        <tr>
+            <td>دمشق</td>
+            <td>شقة سكنية 170 متر</td>
+            <td>5000000 ل.س</td>
+            <td> <button class="details1" data-target="detailswin1"> اظهار التفاصيل</button></td>
+            <td> <input type="radio"></td>
+        </tr>
+        <tr class="ROW2">
+            <td colspan="5">
+                <div class="propertyDetails" id="detailswin1">
+                    <h2> تفاصيل هذه الشقة</h2>
+                    <h1> المنطقة : المالكي - ثلاث غرق وصالون - متوفر كراج خاص -الطابق الرابع</h1>
+                    <h1> الملكية : طابو - مساحة البلكون 20م - فرش ديلوكس</h1>
+                    <h2 class="imges">
+                        <img src="./imges/F614CB73-6E5F-472F-8B90-47C3A1E7FA2A.jpeg">
+                        <img src="./imges/8fd54111451b26a6d07034e10a29abc5.jpg">
+                        <img src="./imges/D2E97CCF-4D7E-4548-97F2-E22CE7925F1E.jpeg">
+                    </h2>
+
+                </div>
+            </td>
+
+        </tr>
+        <tr>
+            <td>طرطوس</td>
+            <td>شاليهات النورس</td>
+            <td>1000000000000 ل.س</td>
+            <td> <button class="details2" data-target="detailswin2"> اظهار التفاصيل</button></td>
+            <td> <input type="radio"> </td>
+        </tr>
+        <tr class="ROW3">
+            <td colspan="5">
+                <div class="propertyDetails" id="detailswin2">
+                    <h2> تفاصيل هذا العقار</h2>
+                    <h1> المنطقة : الساحل الغربي - متوفر حصة من الشاطئ- سلسلة فنادق ومطاعم </h1>
+                    <h1> الملكية : طابو - مساحة البناء كامل 100000م - جميع الغرف مكيفة </h1>
+                    <h2 class="imges">
+                        <img src="./imges/241811374.jpg">
+                        <img src="./imges/309409172.jpg">
+                        <img src="./imges/60263709.jpg">
+                    </h2>
+
+                </div>
+            </td>
+
+        </tr>
+        <tr class="texto">
+            <td> درعا</td>
+            <td> جامعة خاصة </td>
+            <td> 100000000000 ل.س</td>
+            <td> <button class="details3" data-target="detailswin3"> اظهار التفاصيل</button></td>
+            <td> <input type="radio"></td>
+        </tr>
+        <tr class="ROW4">
+            <td colspan="5">
+                <div class="propertyDetails" id="detailswin3">
+                    <h2> تفاصيل هذا العقار</h2>
+                    <h1> المنطقة : غباغب - متوفر باصات خاصة - مجهزة بأدوات طبية وحاسوبية بالكامل </h1>
+                    <h1>الملكية : طابو - مساحة الجامعة 100000م  -مزودة بمنظومة طاقة لتخديم كافة المباني   </h1>
+                    <h2 class="imges">
+                        <img src="./imges/aboutaiucampuslife_(1).jpg">
+                        <img src="./imges/aboutaiucampuslife_(2).jpg">
+                        <img src="./imges/aiu-5.jpg">
+                    </h2>
+
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td> دمشق</td>
+            <td>سوبر ماركت</td>
+            <td> 150000000 ل.س</td>
+            <td> <button class="details5" data-target="detailswin5"> اظهار التفاصيل</button></td>
+            <td> <input type="radio"> </button></td>
+        </tr>
+        <tr class="ROW6">
+            <td colspan="5">
+                <div class="propertyDetails" id="detailswin5">
+                    <h2> تفاصيل هذا العقار</h2>
+                    <h1> المنطقة : مشروع دمر - مساحة 500م - متوفر مخزن خاص + مخزن تبريد  - ثلاث طوابق </h1>
+                    <h1> الملكية : طابو - مساحة المخازن 125م  - مجهز بستاندات ورفوف وبرادات </h1>
+                    <h2 class="imges">
+                        <img src="./imges/DSC_8956-scaled.jpg">
+                        <img src="./imges/ميني-كارفور-1024x640.jpg">
+                        <img src="./imges/vUNyS0Perwq-gP87KnLheJY7MjTrBOTuvBCwQeqcy-utgsF5eQs1Jh-J22Ti8FL5QNyXJsRr2CArsVXA5So1nbfKo4gsCXUke7IB1zeVy7fv4hSQvqzfcIjdzXSydc_0ACog5g5kZsSKyMt78MmNjg.jpg">
+                    </h2>
+
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td>اللاذقية</td>
+            <td>شقة سكنية 120م</td>
+            <td> 8000000 ل.س</td>
+            <td> <button class="details6" data-target="detailswin6"> اظهار التفاصيل</button></td>
+            <td> <input type="radio"></td>
+        </tr>
+        <tr class="ROW7">
+            <td colspan="5">
+                <div class="propertyDetails" id="detailswin6">
+                    <h2> تفاصيل هذه الشقة</h2>
+                    <h1> المنطقة : جبلة بستان الباشا -متوفر مواصلات- بناء غير طابقي    </h1>
+                    <h1> الملكية : طابو - مساحة العمار 90م</h1>
+                    <h2 class="imges">
+                        <img src="./imges/662686179-800x600.webp">
+                        <img src="./imges/662686180-800x600.webp">
+                        <img src="./imges/662686183-800x600.webp">
+                    </h2>
+
+                </div>
+            </td>
+
+        </tr>
+        <tr>
+            <td>حمص</td>
+            <td>حمامات أبو رباح</td>
+            <td>90000000 ل.س</td>
+            <td> <button class="details7" data-target="detailswin7"> اظهار التفاصيل</button></td>
+            <td> <input type="radio"></td>
+        </tr>
+        <tr class="ROW8">
+            <td colspan="5">
+                <div class="propertyDetails" id="detailswin7">
+                    <h2> تفاصيل هذا العقار</h2>
+                    <h1> المنطقة : الطريق الممتد بين حمص وحماة - متوفر غرف علاج طبيعي - بمساحة 600م </h1>
+                    <h1> الملكية : طابو -مساحة الاستقبال 75م- متوفر غرف خاصة </h1>
+                    <h2 class="imges">
+                        <img src="./imges/تنزيل (1).jfif">
+                        <img src="./imges/images.jfif">
+                        <img src="./imges/تنزيل.jfif">
+                    </h2>
+
+                </div>
+            </td>
+
+        </tr>
+        <tr>
+            <td>حلب</td>
+            <td>شقة سكنية مساحة 200م</td>
+            <td> 3000000 ل.س</td>
+            <td> <button class="details8" data-target="detailswin8"> اظهار التفاصيل</button></td>
+            <td> <input type="radio"></td>
+        </tr>
+        <tr class="ROW9">
+            <td colspan="5">
+                <div class="propertyDetails" id="detailswin8">
+                    <h2> تفاصيل هذه الشقة</h2>
+                    <h1> المنطقة : جانب القلعة - متوفر كراج خاص - الطابق ثاني</h1>
+                    <h1> الملكية : طابو - فرش ديلوكس</h1>
+                    <h2 class="imges">
+                        <img src="./imges/726581564-800x600.webp">
+                        <img src="./imges/726581566-800x600.webp">
+                        <img src="./imges/726581567-800x600.webp">
+                    </h2>
+
+                </div>
+            </td>
+
+        </tr>
+        <tr>
+            <td>السويداء</td>
+            <td>أرض زراعية مساحة 10دونم</td>
+            <td> 5000000 ل.س</td>
+            <td> <button class="details9" data-target="detailswin9"> اظهار التفاصيل</button></td>
+            <td> <input type="radio"></button></td>
+        </tr>
+        <tr class="ROW10">
+            <td colspan="5">
+                <div class="propertyDetails" id="detailswin9">
+                    <h2> تفاصيل هذه الأرض</h2>
+                    <h1> المنطقة : جبل العرب - متوفر أساليب ري حديثة-مزروعة ب5دونم زيتون و 5دونم عنب</h1>
+                    <h1> الملكية : طابو -متوفر 5 آبار مياه</h1>
+                    <h2 class="imges">
+                        <img src="./imges/789503.jpg">
+                        <img src="./imges/40025740-400x300.jpeg">
+                        <img src="./imges/realestate_ارض-زراعية-على-ترعة-الشيخ-زايد-فى-العلمين-الجديدة-ّّّ12018031516443.jpg">
+                    </h2>
+
+                </div>
+            </td>
+
+        </tr>
+        <tr>
+            <td>القنيطرة</td>
+            <td>منتزه الجولان</td>
+            <td> 20000000 ل.س</td>
+            <td> <button class="details10" data-target="detailswin10"> اظهار التفاصيل</button></td>
+            <td> <input type="radio"></td>
+        </tr>
+        <tr class="ROW11">
+            <td colspan="5">
+                <div class="propertyDetails" id="detailswin10">
+                    <h2> تفاصيل هذا العقار</h2>
+                    <h1> المنطقة : جانب بحيرة المنطرة -بناء مغلق شتوي + بناء مفتوح صيفي- مساحة1050م </h1>
+                    <h1> الملكية : طابو - مساحة البناء الشتوي400م -  مساحة البناء الصيفي 500م- كراج بمساحة 150م</h1>
+                    <h2 class="imges">
+                        <img src="./imges/1-18-2.jpg">
+                        <img src="./imges/40-7.jpg">
+                        <img src="./imges/IMG_20220620_163423_567.jpg">
+                    </h2>
+
+                </div>
+            </td>
+
+        </tr>
+        <tr>
+            <td>ريف دمشق</td>
+            <td>منتزه ذكريات بلودان</td>
+            <td> 150000000 ل.س</td>
+            <td> <button class="details11" data-target="detailswin11"> اظهار التفاصيل</button></td>
+            <td> <input type="radio"></td>
+        </tr>
+        <tr class="ROW12">
+            <td colspan="5">
+                <div class="propertyDetails" id="detailswin11">
+                    <h2> تفاصيل هذا العقار</h2>
+                    <h1> المنطقة : جانب مغارة موسى - متوفر كراج خاص - مساحة 50000م-مقسم علة اربعة طوابق  </h1>
+                    <h1> الملكية : طابو -كراج بمساحة 500م- مقسم إلى أبنية صيفية وشتوية </h1>
+                    <h2 class="imges">
+                        <img src="./imges/1.jfif">
+                        <img src="./imges/2.jfif">
+                        <img src="./imges/3.jfif">
+                    </h2>
+                </div>
+            </td>
+        </tr>
+    </table>
+    <button id="continue" class="con"> متابعة </button>
+    <div id="info" class="in">
+        <h2> بيانات العميل : </h2>
+        <div class="error"></div>
+        <form id="form" action="">
+          <input type="text" id="full_name" placeholder="الاسم الكامل" name="full_name">
+          <input type="text" id="national_id" placeholder="الرقم الوطني" required pattern="[0-9]{11}" 
+          name="national_id" maxlength="11"   minlength="11">
+          <input type="date" id="birth_date" placeholder="تاريخ الولادة">
+          <input type="tel" id="mobile_number" placeholder="رقم الموبايل">
+          <input type="email" id="email" placeholder="البريد الإلكتروني">
+          <input type="text" id="captcha_input" placeholder="CAPTCHA">
+            <div class="captcha-container">
+                <button class="captcha-button" onclick="refreshCaptcha()">تحديث Captcha</button>
+                <div class="captcha" id="captcha">ABC123</div>
+            </div>   
+          <br>
+        <button id="submit" onclick="addEventListener"> إرسال </button>
+        </form>
+    </div>
+    <script src="myFunction.js"></script>
+  </body>
+</html>
